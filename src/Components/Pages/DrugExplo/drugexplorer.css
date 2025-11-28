@@ -1,0 +1,218 @@
+
+
+
+.Portfolio-container{
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.Portfolio-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  background-color: #0c111d;
+  top: 80px;
+}
+
+
+.portfolio-left{
+font-family: "Inter";
+font-weight: 600;
+font-size: 24px;
+color: #F5F5F6;
+}
+
+.Drug-details{
+  margin-top: 20px;
+}
+.Drug-info{
+gap: 10px;
+border-radius: 4px;
+border: 1px solid #1F242F;
+padding-top: 16px;
+padding-right: 12px;
+padding-bottom: 16px;
+padding-left: 12px;
+
+}
+
+.Drug-info .Drug-name{
+  margin-bottom: 0px;
+  font-family:"Inter";
+font-weight: 600;
+font-size: 16px;
+color: #F5F5F6;
+}
+
+.Drug-info .Drug-for{
+  font-family:"Inter";
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+color: #94969C;
+}
+
+
+.Plan-details{
+  margin-top: 14px;
+  align-items: center;
+}
+.plan-head{
+  font-family: "Inter";
+font-weight: 500;
+font-size:12px;
+color: #94969C;
+}
+.arrow-up{
+  margin-left: 4px;
+}
+.plan-value{
+  font-family: "Inter";
+font-weight: 500;
+font-size: 14px;
+color: #F5F5F6;
+margin-left: 4px;
+}
+
+.plan-increment-percentage{
+  color: #17B26A;
+  font-family: "Inter";
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+}
+
+
+.Avg-tier-col{
+  align-items: center;
+  margin-top: 7px;
+}
+
+
+.Restrictions-col{
+  margin-top: 7px;
+}
+
+.Restriction{
+  font-family: "Inter";
+font-weight: 500;
+font-size: 12px;
+color: #94969C;
+}
+
+
+.plan-increment-percentage-res{
+  color: #17B26A;
+  font-family: "Inter";
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+margin-left: 4px;
+}
+
+.graph-green{
+  width: 177px;
+height: 90px;
+
+}
+
+.second-row{
+  margin-top: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+.dashboard-header-geo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 80px;
+  z-index: 1000;
+  background-color: #161b26;
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.Left-Dash-head-geo p {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #f5f5f6;
+  margin-bottom: 0px;
+}
+
+.Right-Dash-head-geo {
+  display: flex;
+}
+
+.search-container-geo {
+  position: relative;
+  /* padding-right: 32px; */
+}
+.active-user-sec-geo .search-container-geo {
+  margin-top: 20px;
+}
+.search-container-geo img {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  width: 20px;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.search-container-geo input {
+  width: 320px;
+  padding: 10px 12px 10px 40px;
+  border: 1px solid #333741;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  color: #85888e;
+  background-color: #0c111d;
+}
+
+.dashboard-header-geo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 80px;
+  z-index: 1000;
+  background-color: #161b26;
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.Left-Dash-head-geo p {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #f5f5f6;
+  margin-bottom: 0px;
+}
+
+.Right-Dash-head-geo {
+  display: flex;
+}
